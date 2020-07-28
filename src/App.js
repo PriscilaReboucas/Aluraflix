@@ -34,8 +34,7 @@ function App() {
       />
 
       <Carousel
-        category={
-          .categorias[4]}
+        category={dadosIniciais.categorias[4]}
       />
 
       <Carousel
