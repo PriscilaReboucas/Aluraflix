@@ -5,15 +5,15 @@ import FormField from '../../../components/Carousel/components/FormField';
 
 function CadastroCategoria() {
 
-    const [categorias, setCategorias] = useState([]);
-
     const valoresIniciais = {
         nome: '',
         descricao: '',
         cor: ''
-    }
 
+    }
+    const [categorias, setCategorias] = useState([]);
     const [values, setValues] = useState(valoresIniciais);
+
     // chave: nome, descricao, 
     function setValue(chave, valor) {
         setValues({
@@ -23,10 +23,9 @@ function CadastroCategoria() {
     }
 
     function handleChange(infosDoEvento) {
-        const { getAttribute, value } = infosDoEvento.target
         setValue(
-            getAttribute('name'),
-            value
+            infosDoEvento.target.getAttribute('name'),
+            infosDoEvento.target.value
         );
     }
 
@@ -52,6 +51,26 @@ function CadastroCategoria() {
 
                 />
 
+
+                <FormField
+                    label="Descrição:"
+                    type="text"
+                    value={values.descricao}
+                    name="descricao"
+                    onChange={handleChange}
+
+                />
+
+                <FormField
+                    label="Cor:"
+                    type="color"
+                    value={values.cor}
+                    name="cor"
+                    onChange={handleChange}
+
+                />
+
+
                 {/*  <div>
                     <label>
                         Nome da Categoria:
@@ -63,14 +82,7 @@ function CadastroCategoria() {
                         />
                     </label>
                 </div> */}
-                <FormField
-                    label="Descrição:"
-                    type="textarea"
-                    value={values.descricao}
-                    name="descricao"
-                    onChange={handleChange}
 
-                />
 
 
                 {/*    <div>
@@ -85,14 +97,7 @@ function CadastroCategoria() {
                         />
                     </label>
                 </div> */}
-                <FormField
-                    label="Cor:"
-                    type="color"
-                    value={values.cor}
-                    name="cor"
-                    onChange={handleChange}
 
-                />
 
                 {/*     <div>
                     <label>
