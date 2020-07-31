@@ -32,7 +32,7 @@ function CadastroCategoria() {
     useEffect(() => {
 
         const URL = window.location.hostname.includes('localhost')
-            ? ''
+            ? 'http://localhost/categorias'
             : 'https://aluraflix-pris.herokuapp.com/categorias';
         fetch(URL)
             .then(async (respostaDoServer) => {
