@@ -1,7 +1,8 @@
 import styled from "styled-components";
 // forma de compartilhar cores, gerenciamento de themes.
 const Button = styled.button`
- color: var(--white);
+    color: var(--white);
+    background: var(--black);
     border: 1px solid var(--white);
     box-sizing: border-box;
     cursor: pointer;
