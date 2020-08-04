@@ -1,3 +1,32 @@
+Conteúdo do Projeto:
+
+Create React App (CRA) para iniciar o projeto;
+Components com React usando styled-components;
+Organização das pastas do nosso projeto;
+Passagem propriedades para components;
+Deploy da sua AluraFlix na Vercel.
+
+Contextualização do que é um SPA;
+Utilização de react-router-dom para controlar as rotas;
+Diferença entre a tag a e o component Link;
+Como lidar com caminhos paths que não existe, famoso 4040;
+Carousel com a react-slick;
+Criação de um template com o cabelho e o rodapé;
+Padronizae o footer embaixo na página;
+Criação do formulário para casdastrar categoria;
+
+Trabalhando com elementos dinâmicos nas telas da aplicação
+Padrões de código com EsLint
+Configuração doservidor portátil com json-server
+
+Cadastro de vídeos
+Reuso para reuso de lógicas de state
+Home dinâmica
+
+
+
+Comandos utilizados para a criação do projeto:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
