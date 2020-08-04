@@ -1,27 +1,28 @@
 Conteúdo do Projeto:
 
-Create React App (CRA) para iniciar o projeto;
-Components com React usando styled-components;
-Organização das pastas do nosso projeto;
-Passagem propriedades para components;
-Deploy da sua AluraFlix na Vercel.
+Create React App (CRA) para iniciar o projeto;<br />
+Components com React usando styled-components;<br />
+Organização das pastas do nosso projeto;<br />
+Passagem propriedades para components;<br />
+Deploy da sua AluraFlix na Vercel.<br />
+Deploy em heroku.com <br />
+<br />
+Contextualização do que é um SPA;<br />
+Utilização de react-router-dom para controlar as rotas;<br />
+Diferença entre a tag a e o component Link;<br />
+Como lidar com caminhos paths que não existe, famoso 4040;<br />
+Carousel com a react-slick;<br />
+Criação de um template com o cabelho e o rodapé;<br />
+Padronizae o footer embaixo na página;<br />
+Criação do formulário para casdastrar categoria;<br />
+<br />
+Trabalhando com elementos dinâmicos nas telas da aplicação <br />
+Padrões de código com EsLint <br />
+Configuração doservidor portátil com json-server <br />
 
-Contextualização do que é um SPA;
-Utilização de react-router-dom para controlar as rotas;
-Diferença entre a tag a e o component Link;
-Como lidar com caminhos paths que não existe, famoso 4040;
-Carousel com a react-slick;
-Criação de um template com o cabelho e o rodapé;
-Padronizae o footer embaixo na página;
-Criação do formulário para casdastrar categoria;
-
-Trabalhando com elementos dinâmicos nas telas da aplicação
-Padrões de código com EsLint
-Configuração doservidor portátil com json-server
-
-Cadastro de vídeos
-Reuso para reuso de lógicas de state
-Home dinâmica
+Cadastro de vídeos <br />
+Reuso para reuso de lógicas de state <br />
+Home dinâmica <br />
 
 
 
